@@ -10,9 +10,9 @@ To add the log rotation functionality we will use a custom service provider to c
 
 `$app->register(Pearl\LumenLogRotate\LogRotateServiceProvider::class);`
 
-## Custom settings(Env setting):
+## Custom Options:
 
-- To specify the number of log files we should be keeping.
+- To specify the number of log files we should be keeping. Default value is 5.
 
   LOG_MAXFILE=3
 
@@ -20,4 +20,13 @@ To add the log rotation functionality we will use a custom service provider to c
 
   LOG_PATH=/path/log.log
 
-  All the custom configuration should be add in .env file.
+  All the custom configuration should be add in .env file. Default log path is storage/logs/lumen.log
+
+
+## Logs folder view :
+
+    lumen-2018-03-19.log
+    lumen-2018-03-20.log
+    lumen-2018-03-21.log
+    lumen-2018-03-22.log
+    lumen-2018-03-23.log
