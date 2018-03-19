@@ -16,11 +16,11 @@ To add the log rotation functionality we will use a custom service provider to c
 
   LOG_MAXFILE=3
 
-- To Specify the log file path
+- To Specify the log file path. Default log path is storage/logs/lumen.log
 
   LOG_PATH=/path/log.log
 
-  All the custom configuration should be add in .env file. Default log path is storage/logs/lumen.log
+  All the custom configuration should be add in .env file.
 
 
 ## Logs folder view :
