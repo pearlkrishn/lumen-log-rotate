@@ -1,0 +1,24 @@
+{
+    "name": "pearl/lumen-log-rotate",
+    "description": "Rotating log file in the Lumen framework",
+    "type": "library",
+    "keywords": ["log", "rotate", "log rotating", "lumen framework"],
+    "authors": [
+        {
+            "name": "pearlkrishn",
+            "email": "pearlkrishn@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.4",
+        "laravel/lumen-framework": "5.3.*|5.4.*|5.5.*|5.6.*",
+        "monolog/monolog" : "~1.11"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Pearl\\LumenLogRotate\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
